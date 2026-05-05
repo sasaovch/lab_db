@@ -189,3 +189,12 @@ rag-notes-bot/
 | `normalize_embeddings` | `True` | Переводит L2-поиск в косинусный |
 
 ---
+
+## Примеры работы бота
+
+![alt text](examples/help.png)
+![alt text](examples/load.png)
+![alt text](examples/1.png)
+![alt text](examples/2.png)
+![alt text](examples/search.png)
+![alt text](examples/stats.png)

@@ -49,7 +49,7 @@ async def cmd_help(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
         "*Форматы файлов:*\n"
         "• `.md` / `.markdown` — заметки Obsidian, Notion, Typora\n"
         "• `.pdf` — статьи, книги\n"
-        "• `.txt` — обычный текст\n"
+        "• `.txt` — обычный текст\n\n"
         "📌 *Доступные команды:*\n"
         "• /upload — загрузить заметки (MD, PDF, TXT)\n"
         "• /search `<запрос>` — найти релевантные фрагменты\n"
