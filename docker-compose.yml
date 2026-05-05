@@ -1,0 +1,10 @@
+# docker-compose.yml
+services:
+    bot:
+    build: .
+    env_file: .env
+    command: python -m bot.main
+    volumes:
+      - ./data:/app/data
+    ports:
+      - "8443:8443"
