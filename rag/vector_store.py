@@ -1,6 +1,5 @@
 """
 rag/vector_store.py — Управление FAISS-индексом с Sentence Transformers эмбеддингами.
-Совместим с langchain-huggingface >= 0.1.0 (без query_instruction / embed_instruction).
 Префиксы E5 ("query: " / "passage: ") добавляются вручную перед передачей в модель.
 """
 from __future__ import annotations
